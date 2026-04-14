@@ -1,14 +1,13 @@
 {
-  "name": "svnodo",
+  "name": "calculadora-node",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.mjs",
+  "main": "server.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.mjs"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
 }
